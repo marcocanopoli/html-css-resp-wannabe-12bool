@@ -1,0 +1,91 @@
+[class*="col-"] {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 30px 0;
+}
+
+h3 {
+    padding: 15px 0;
+}
+
+.lessons,
+.steps,
+.why {
+    padding-bottom: 30px;
+}
+.steps,
+.why {
+    max-width: 100%;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+}
+
+.text-box {
+    padding: 0 30px;
+}
+.text-box hr {
+    margin: 15px 0 30px;
+}
+
+
+.why img {
+    height: 250px;
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 25px
+}
+
+
+/* xs */
+@media screen and (max-width: 767px) {
+
+    body {
+        font-size: 1.7em;
+    }
+
+    .text-box p {
+        padding-bottom: 30px;
+    }
+    .lessons,
+    .why {
+    background-color: #f2f2cd;
+}
+
+    .lessons,
+    .steps,
+    .why {
+        margin-top: 0;
+        padding-top: 15px;
+    }
+
+}
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        font-size: 1.7em;
+    }
+
+    .text-box hr {
+        display: none;
+    }
+
+}
+
+/* lg */
+@media screen and (min-width: 992px) {
+
+    .lessons hr,
+    .steps hr {
+        display: none;
+    }
+
+}
