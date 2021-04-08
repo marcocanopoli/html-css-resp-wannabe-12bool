@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
 img {
     height: 200px;
 }
@@ -12,6 +17,7 @@ h2 {
 }
 
 h3 {
+    font-size: 1.3em;
     padding: 15px 0;
 }
 
@@ -50,19 +56,25 @@ h3 {
         font-size: 1.7em;
     }
 
-    .text-box p {
-        padding-bottom: 30px;
-    }
     .lessons,
     .why {
-    background-color: #f2f2cd;
-}
-
+        background-color: #f2f2cd;
+    }
+    
     .lessons,
     .steps,
     .why {
         margin-top: 0;
         padding-top: 15px;
+    }
+    
+    .text-box p {
+        padding-bottom: 30px;
+    }
+    
+    .why img {
+        height: 200px;
+        padding: 30px
     }
 
 }
@@ -74,8 +86,28 @@ h3 {
         font-size: 1.7em;
     }
 
+    .lessons,
+    .steps,
+    .why {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .lessons,
+    .why {
+        background-color: #cdf2d0;
+    }
+
+    .text-box {
+        padding-bottom: 50px;
+    }
     .text-box hr {
         display: none;
+    }
+
+    .why img {
+        height: 200px;
+        padding: 30px
     }
 
 }
